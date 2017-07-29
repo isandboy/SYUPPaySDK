@@ -1,0 +1,10 @@
+use_frameworks!
+
+target 'SYUPPaySDK_Example' do
+  pod 'SYUPPaySDK', :path => '../'
+
+  target 'SYUPPaySDK_Tests' do
+    inherit! :search_paths
+
+  end
+end
