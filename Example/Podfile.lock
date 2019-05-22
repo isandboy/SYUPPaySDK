@@ -1,5 +1,7 @@
 PODS:
-  - SYUPPaySDK (1.0.0)
+  - SYUPPaySDK (2.0.0):
+    - SYUPPaySDK/PayWallet (= 2.0.0)
+  - SYUPPaySDK/PayWallet (2.0.0)
 
 DEPENDENCIES:
   - SYUPPaySDK (from `../`)
@@ -9,8 +11,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  SYUPPaySDK: bcd1200f0283ceeb3aa28ca51dbc3551a483fb72
+  SYUPPaySDK: 827bf16d48a85e6e15d79ac229dbfde31b87ed72
 
 PODFILE CHECKSUM: 1eb212428dd7f5d9da0a1ed19d66a0fe8fe51ecb
 
-COCOAPODS: 1.1.1
+COCOAPODS: 1.6.2
