@@ -10,8 +10,11 @@
 #endif
 #endif
 
-#import "SYUPPayDummy.h"
+#import "UPAPayPlugin.h"
+#import "UPAPayPluginDelegate.h"
+#import "SYUPApplePayDummy.h"
 #import "UPPaymentControl.h"
+#import "SYUPPayDummy.h"
 
 FOUNDATION_EXPORT double SYUPPaySDKVersionNumber;
 FOUNDATION_EXPORT const unsigned char SYUPPaySDKVersionString[];

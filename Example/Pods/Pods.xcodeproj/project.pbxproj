@@ -7,20 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2E55D72B4A39FA0123FF06D8AAB8E216 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C9908F76B8FC2E16C6263F0D579C0BA /* CFNetwork.framework */; };
-		368D8C293568E6BE5B92280173C4DCEC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D02A1863E856DEEE3BA1BAB18748AF6 /* Foundation.framework */; };
+		1AF9FEA124978C4C0408FF2C1FAB2476 /* SYUPApplePayDummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 483BD05E640DF3EFB0A9BD6C8883B16E /* SYUPApplePayDummy.m */; };
+		30247FCB5846C8BAA5C6DA9D03C7F9C8 /* SYUPApplePayDummy.h in Headers */ = {isa = PBXBuildFile; fileRef = C6F5736DD674CE113A08F6171D6504A2 /* SYUPApplePayDummy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		368D8C293568E6BE5B92280173C4DCEC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C302A12B12BC06BD1BD020898838DF24 /* Foundation.framework */; };
+		3B594A978D40235827F378C6EAA48098 /* UPAPayPlugin.h in Headers */ = {isa = PBXBuildFile; fileRef = 94CA3A838ED28447463BA3584412AF1D /* UPAPayPlugin.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3F7D482DC5384BC8E6A79AC6FB2F3AC7 /* SYUPPayDummy.h in Headers */ = {isa = PBXBuildFile; fileRef = 554F61847F1EBF4ED90290A9D4A72454 /* SYUPPayDummy.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		435338A4E212F7245B132211B5B03DAE /* Pods-SYUPPaySDK_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CB84D6E080B6ADDAA68B9E1C160016FE /* Pods-SYUPPaySDK_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4BB813244A977F18CBC0AED17F4B9BAE /* SYUPPaySDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 11C5D7E9DA3A374E7E6935249035CE3E /* SYUPPaySDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		51F4E1DC13B2D0F464AFAC3B8FC66BAA /* Pods-SYUPPaySDK_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A684DF440643C1BFE2EB7C35C6C26428 /* Pods-SYUPPaySDK_Tests-dummy.m */; };
-		808C9350629CE9DBBFB6474261DC8881 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D02A1863E856DEEE3BA1BAB18748AF6 /* Foundation.framework */; };
-		99AE00EFF2CB05EEF66F55E05CE4FC12 /* SYUPPayDummy.h in Headers */ = {isa = PBXBuildFile; fileRef = C53E4121683CEBF2D5AD307B2FACEE81 /* SYUPPayDummy.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9BFB7207558C6436701408EDFEDB1310 /* SYUPPaySDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 32339E106452AB594DC7D64EA4A75118 /* SYUPPaySDK-dummy.m */; };
+		808C9350629CE9DBBFB6474261DC8881 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C302A12B12BC06BD1BD020898838DF24 /* Foundation.framework */; };
+		8893FC92CA72131C9302208A5AD4E0B9 /* SYUPPaySDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D13CF7AAC3112CEA7CACCC1CD818AF58 /* SYUPPaySDK-dummy.m */; };
+		8AAE90A7C1A25C9E4827D4E44E930944 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C302A12B12BC06BD1BD020898838DF24 /* Foundation.framework */; };
 		A38AA750DD862BA0D0C727EFB8B4F55A /* Pods-SYUPPaySDK_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 27B5B8BC89F0517F231525A35A3A7999 /* Pods-SYUPPaySDK_Example-dummy.m */; };
-		BD07C637E62E3EC42231DF6C2D33E4A4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D02A1863E856DEEE3BA1BAB18748AF6 /* Foundation.framework */; };
+		A6BC18B4FD1901E60CB1CC910D3DC981 /* SYUPPayDummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F31D76EDFA8ABC8F7F65F8847890FEA /* SYUPPayDummy.m */; };
+		B91F276D61CE67425F56E907F7D20DE2 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DF29B8853B555C5AE4C4A9B29101C41 /* CFNetwork.framework */; };
+		C0E768AEE0E58251909ABBC3047A0680 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77B2877EC008EE8663DF2488453D792D /* SystemConfiguration.framework */; };
+		C15DD2A0F93DC981A40BD5A0E43B70FF /* UPAPayPluginDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 5EE0FDFD9FB0AC7CD1D06B14F0401CD7 /* UPAPayPluginDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C688C3F7F68077BEA1DF6E764B379472 /* Pods-SYUPPaySDK_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 902EE846C33643D89C1881296D756312 /* Pods-SYUPPaySDK_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E23533B5B720DCA4E8D4DEACA99B01E3 /* UPPaymentControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F3D103DFFFAB148BA08F685CA57F809 /* UPPaymentControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EF636C2CAAC2236D96D3D290660C7E4E /* SYUPPayDummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D0080B6706669E5BFC148F42AE73816 /* SYUPPayDummy.m */; };
-		F09FB2BB5C6AD3DA2D45735B86EC6293 /* SYUPPaySDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9DB57CE27A591FE3440E115A501F55E4 /* SYUPPaySDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FF30041C5D776C9BFF122B30BC678BB6 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FD0BE3B6B5994C0CDA7629DA1C89122 /* SystemConfiguration.framework */; };
+		DAA53665478213E077E551AF5FA56F62 /* UPPaymentControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F29C53305C3DDC46DBC5E6BE71A78CD /* UPPaymentControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F3BDEA7462E20A7532F88C9D8FCF3E00 /* PassKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC5E7E67ACB4C06907E37A469C4513C5 /* PassKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,52 +47,59 @@
 
 /* Begin PBXFileReference section */
 		0A8DF8E28888DDE4B46AF1FAFE2FB9A6 /* Pods-SYUPPaySDK_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SYUPPaySDK_Example.modulemap"; sourceTree = "<group>"; };
-		0C9908F76B8FC2E16C6263F0D579C0BA /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
-		0DD720E7FAEC0F91C634AFB98493C6A2 /* SYUPPaySDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SYUPPaySDK.xcconfig; sourceTree = "<group>"; };
-		0EDB3AC6E42BD7C00D3AE8AECAF0BE4C /* SYUPPaySDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = SYUPPaySDK.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		0F29C53305C3DDC46DBC5E6BE71A78CD /* UPPaymentControl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UPPaymentControl.h; sourceTree = "<group>"; };
+		11C5D7E9DA3A374E7E6935249035CE3E /* SYUPPaySDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SYUPPaySDK-umbrella.h"; sourceTree = "<group>"; };
+		20845B8005171AA8382C7D63CDCB08EF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		20F67C58799BF5D868270F136AC75FA9 /* Pods-SYUPPaySDK_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SYUPPaySDK_Tests-Info.plist"; sourceTree = "<group>"; };
-		20F68246FCF7E2AD301D6088EC2D14DD /* SYUPPaySDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SYUPPaySDK-prefix.pch"; sourceTree = "<group>"; };
-		215A01CF9F0333D3D4933CFB77B9ECB6 /* SYUPPaySDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SYUPPaySDK-Info.plist"; sourceTree = "<group>"; };
-		217D203AD847528354D0834ACEC76E01 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		27B5B8BC89F0517F231525A35A3A7999 /* Pods-SYUPPaySDK_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SYUPPaySDK_Example-dummy.m"; sourceTree = "<group>"; };
-		32339E106452AB594DC7D64EA4A75118 /* SYUPPaySDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SYUPPaySDK-dummy.m"; sourceTree = "<group>"; };
+		2DF29B8853B555C5AE4C4A9B29101C41 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
 		3CB81A842CD01ABA3C57DFD0C6DA7ED2 /* Pods-SYUPPaySDK_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SYUPPaySDK_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		3CF702409D85162BFB9071C488664DAB /* SYUPPaySDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SYUPPaySDK.modulemap; sourceTree = "<group>"; };
 		424906EA60C1D9B3D60F907C460B524D /* Pods-SYUPPaySDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SYUPPaySDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		483BD05E640DF3EFB0A9BD6C8883B16E /* SYUPApplePayDummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SYUPApplePayDummy.m; path = SYUPPaySDK/applePaySDK/SYUPApplePayDummy.m; sourceTree = "<group>"; };
 		4AD1071EBC077C9A60F31264D5D31BA6 /* Pods-SYUPPaySDK_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SYUPPaySDK_Example-Info.plist"; sourceTree = "<group>"; };
-		51C12D74AFCA7E866B3EAD0CB39064EF /* SYUPPaySDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SYUPPaySDK.modulemap; sourceTree = "<group>"; };
-		5F3D103DFFFAB148BA08F685CA57F809 /* UPPaymentControl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UPPaymentControl.h; path = SYUPPaySDK/paymentcontrol/inc/UPPaymentControl.h; sourceTree = "<group>"; };
+		4F31D76EDFA8ABC8F7F65F8847890FEA /* SYUPPayDummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SYUPPayDummy.m; path = SYUPPaySDK/paymentcontrol/SYUPPayDummy.m; sourceTree = "<group>"; };
+		554F61847F1EBF4ED90290A9D4A72454 /* SYUPPayDummy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SYUPPayDummy.h; path = SYUPPaySDK/paymentcontrol/SYUPPayDummy.h; sourceTree = "<group>"; };
+		5EE0FDFD9FB0AC7CD1D06B14F0401CD7 /* UPAPayPluginDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UPAPayPluginDelegate.h; sourceTree = "<group>"; };
 		696BB50E9BAB15B2E113DE23B5D81A7A /* Pods_SYUPPaySDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SYUPPaySDK_Example.framework; path = "Pods-SYUPPaySDK_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		6D0080B6706669E5BFC148F42AE73816 /* SYUPPayDummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SYUPPayDummy.m; path = SYUPPaySDK/SYUPPayDummy.m; sourceTree = "<group>"; };
-		7D02A1863E856DEEE3BA1BAB18748AF6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		77B2877EC008EE8663DF2488453D792D /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
 		7EFCBB1C25F44D60AB8A531667B0425E /* Pods-SYUPPaySDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SYUPPaySDK_Example.release.xcconfig"; sourceTree = "<group>"; };
-		8FD0BE3B6B5994C0CDA7629DA1C89122 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		7F79F6750F964C65B96A5D70B9CA0638 /* SYUPPaySDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = SYUPPaySDK.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		85C751BAEE1CF5284DB6D3FBDC368A30 /* libPaymentControl.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libPaymentControl.a; path = SYUPPaySDK/paymentcontrol/libs/libPaymentControl.a; sourceTree = "<group>"; };
 		902EE846C33643D89C1881296D756312 /* Pods-SYUPPaySDK_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SYUPPaySDK_Tests-umbrella.h"; sourceTree = "<group>"; };
 		915B8F5CC14DCB31AF6386649E346C8E /* SYUPPaySDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SYUPPaySDK.framework; path = SYUPPaySDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		94CA3A838ED28447463BA3584412AF1D /* UPAPayPlugin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UPAPayPlugin.h; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9DB57CE27A591FE3440E115A501F55E4 /* SYUPPaySDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SYUPPaySDK-umbrella.h"; sourceTree = "<group>"; };
 		9F5B558217D640B6E1526E4142F4942D /* Pods-SYUPPaySDK_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SYUPPaySDK_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9FA536DD9DC54E95B85094B73022978D /* SYUPPaySDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SYUPPaySDK-prefix.pch"; sourceTree = "<group>"; };
 		A14F43D64A58EFA4C58482EF4E64A5A9 /* Pods_SYUPPaySDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SYUPPaySDK_Tests.framework; path = "Pods-SYUPPaySDK_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A684DF440643C1BFE2EB7C35C6C26428 /* Pods-SYUPPaySDK_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SYUPPaySDK_Tests-dummy.m"; sourceTree = "<group>"; };
-		AA86278CC51BF8300CAFD1D3FECB2119 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		AA2BC2F7FA639F884AC3FBE83FEDCCA1 /* SYUPPaySDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SYUPPaySDK-Info.plist"; sourceTree = "<group>"; };
 		AB9C8DFAF01017CA20BAB45BDD820D30 /* Pods-SYUPPaySDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SYUPPaySDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		B19A8ECF3FB97706BA89717D167582C4 /* Pods-SYUPPaySDK_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SYUPPaySDK_Tests.modulemap"; sourceTree = "<group>"; };
-		B348FBC0D79042BEEE2EEA5097E2760C /* libPaymentControl.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libPaymentControl.a; path = SYUPPaySDK/paymentcontrol/libs/libPaymentControl.a; sourceTree = "<group>"; };
-		C53E4121683CEBF2D5AD307B2FACEE81 /* SYUPPayDummy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SYUPPayDummy.h; path = SYUPPaySDK/SYUPPayDummy.h; sourceTree = "<group>"; };
+		C302A12B12BC06BD1BD020898838DF24 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		C6F5736DD674CE113A08F6171D6504A2 /* SYUPApplePayDummy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SYUPApplePayDummy.h; path = SYUPPaySDK/applePaySDK/SYUPApplePayDummy.h; sourceTree = "<group>"; };
 		CB84D6E080B6ADDAA68B9E1C160016FE /* Pods-SYUPPaySDK_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SYUPPaySDK_Example-umbrella.h"; sourceTree = "<group>"; };
+		D13CF7AAC3112CEA7CACCC1CD818AF58 /* SYUPPaySDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SYUPPaySDK-dummy.m"; sourceTree = "<group>"; };
 		D67B0452D01301F60D82B70B1618F23E /* Pods-SYUPPaySDK_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SYUPPaySDK_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		E4AE3354C2AFD7C8F99CB3E26B09B9B8 /* Pods-SYUPPaySDK_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SYUPPaySDK_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		EB067668FB7ADD4AE8C7ED6A34D4CA32 /* libUPAPayPlugin.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libUPAPayPlugin.a; path = SYUPPaySDK/applePaySDK/libs/libUPAPayPlugin.a; sourceTree = "<group>"; };
 		EC7886A4810F71C19382D1219B428E34 /* Pods-SYUPPaySDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SYUPPaySDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		EFCAE8E88CCB274431A9E7F04A72A5A8 /* SYUPPaySDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SYUPPaySDK.xcconfig; sourceTree = "<group>"; };
+		F4ED034E4E2736405467B9D88E00DC48 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		F793D5991C44CB4A71B6873F7B4B5FFF /* Pods-SYUPPaySDK_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SYUPPaySDK_Example-frameworks.sh"; sourceTree = "<group>"; };
+		FC5E7E67ACB4C06907E37A469C4513C5 /* PassKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PassKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/PassKit.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		5547CD55A36E9981D78BD118FA1591B9 /* Frameworks */ = {
+		78EF03E2F4DF3539636CCF0FFA094D30 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2E55D72B4A39FA0123FF06D8AAB8E216 /* CFNetwork.framework in Frameworks */,
-				BD07C637E62E3EC42231DF6C2D33E4A4 /* Foundation.framework in Frameworks */,
-				FF30041C5D776C9BFF122B30BC678BB6 /* SystemConfiguration.framework in Frameworks */,
+				B91F276D61CE67425F56E907F7D20DE2 /* CFNetwork.framework in Frameworks */,
+				8AAE90A7C1A25C9E4827D4E44E930944 /* Foundation.framework in Frameworks */,
+				F3BDEA7462E20A7532F88C9D8FCF3E00 /* PassKit.framework in Frameworks */,
+				C0E768AEE0E58251909ABBC3047A0680 /* SystemConfiguration.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -110,25 +122,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		03C5C200A0787E300053CFA8F53CA094 /* Frameworks */ = {
+		1484DABEF84A7FFA1A05FB75CBF8881C /* PayWallet */ = {
 			isa = PBXGroup;
 			children = (
-				A5786E06857FC10FF32A1247D332CDC5 /* iOS */,
+				554F61847F1EBF4ED90290A9D4A72454 /* SYUPPayDummy.h */,
+				4F31D76EDFA8ABC8F7F65F8847890FEA /* SYUPPayDummy.m */,
+				76155FDAE0523615BF96EC0B1C842032 /* Frameworks */,
+				FBC263D760DCC603B098D5744DFFD2AF /* inc */,
 			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		2DCB57C4B414A60240D57F77257B5051 /* SYUPPaySDK */ = {
-			isa = PBXGroup;
-			children = (
-				C53E4121683CEBF2D5AD307B2FACEE81 /* SYUPPayDummy.h */,
-				6D0080B6706669E5BFC148F42AE73816 /* SYUPPayDummy.m */,
-				A48F75726770A86C6190CA0A2693AEC5 /* PayWallet */,
-				60A27A698774C7FA639B25B2BB47120D /* Pod */,
-				69EFB8CFFB7E08928D5FF996E992D244 /* Support Files */,
-			);
-			name = SYUPPaySDK;
-			path = ../..;
+			name = PayWallet;
 			sourceTree = "<group>";
 		};
 		3EB8A01212D716A8C792067E486E99BD /* Targets Support Files */ = {
@@ -140,44 +142,54 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		509521F01A33CB470E1ED5DE0E2835B9 /* Frameworks */ = {
+		477B8512800356CDA852BC07825D22ED /* inc */ = {
 			isa = PBXGroup;
 			children = (
-				B348FBC0D79042BEEE2EEA5097E2760C /* libPaymentControl.a */,
+				94CA3A838ED28447463BA3584412AF1D /* UPAPayPlugin.h */,
+				5EE0FDFD9FB0AC7CD1D06B14F0401CD7 /* UPAPayPluginDelegate.h */,
+			);
+			name = inc;
+			path = SYUPPaySDK/applePaySDK/inc;
+			sourceTree = "<group>";
+		};
+		6F4ABEB7DBF3717B70125DA3C10D13A5 /* ApplyPay */ = {
+			isa = PBXGroup;
+			children = (
+				C6F5736DD674CE113A08F6171D6504A2 /* SYUPApplePayDummy.h */,
+				483BD05E640DF3EFB0A9BD6C8883B16E /* SYUPApplePayDummy.m */,
+				D1E38027AE175C2675BAE51E491CAFFD /* Frameworks */,
+				477B8512800356CDA852BC07825D22ED /* inc */,
+			);
+			name = ApplyPay;
+			sourceTree = "<group>";
+		};
+		74CE0DE5725F4B801F859F19F0B374F6 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				2DF29B8853B555C5AE4C4A9B29101C41 /* CFNetwork.framework */,
+				C302A12B12BC06BD1BD020898838DF24 /* Foundation.framework */,
+				FC5E7E67ACB4C06907E37A469C4513C5 /* PassKit.framework */,
+				77B2877EC008EE8663DF2488453D792D /* SystemConfiguration.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		76155FDAE0523615BF96EC0B1C842032 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				85C751BAEE1CF5284DB6D3FBDC368A30 /* libPaymentControl.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		55A3C4C6C51514C5EF1EC4316A089A63 /* Development Pods */ = {
+		81F9981ACEDCF165F6BDF154507BBF02 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				2DCB57C4B414A60240D57F77257B5051 /* SYUPPaySDK */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		60A27A698774C7FA639B25B2BB47120D /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				AA86278CC51BF8300CAFD1D3FECB2119 /* LICENSE */,
-				217D203AD847528354D0834ACEC76E01 /* README.md */,
-				0EDB3AC6E42BD7C00D3AE8AECAF0BE4C /* SYUPPaySDK.podspec */,
+				20845B8005171AA8382C7D63CDCB08EF /* LICENSE */,
+				F4ED034E4E2736405467B9D88E00DC48 /* README.md */,
+				7F79F6750F964C65B96A5D70B9CA0638 /* SYUPPaySDK.podspec */,
 			);
 			name = Pod;
-			sourceTree = "<group>";
-		};
-		69EFB8CFFB7E08928D5FF996E992D244 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				51C12D74AFCA7E866B3EAD0CB39064EF /* SYUPPaySDK.modulemap */,
-				0DD720E7FAEC0F91C634AFB98493C6A2 /* SYUPPaySDK.xcconfig */,
-				32339E106452AB594DC7D64EA4A75118 /* SYUPPaySDK-dummy.m */,
-				215A01CF9F0333D3D4933CFB77B9ECB6 /* SYUPPaySDK-Info.plist */,
-				20F68246FCF7E2AD301D6088EC2D14DD /* SYUPPaySDK-prefix.pch */,
-				9DB57CE27A591FE3440E115A501F55E4 /* SYUPPaySDK-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/SYUPPaySDK";
 			sourceTree = "<group>";
 		};
 		85F3E059D9364ED8B5299991589B27AC /* Pods-SYUPPaySDK_Tests */ = {
@@ -196,6 +208,18 @@
 			path = "Target Support Files/Pods-SYUPPaySDK_Tests";
 			sourceTree = "<group>";
 		};
+		8BD52A042C960B7E1825140D84952484 /* SYUPPaySDK */ = {
+			isa = PBXGroup;
+			children = (
+				6F4ABEB7DBF3717B70125DA3C10D13A5 /* ApplyPay */,
+				1484DABEF84A7FFA1A05FB75CBF8881C /* PayWallet */,
+				81F9981ACEDCF165F6BDF154507BBF02 /* Pod */,
+				CD2E1909FC7167BDF698305906214077 /* Support Files */,
+			);
+			name = SYUPPaySDK;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 		A155BBBE6E81BC163B7FAF57E590EFBA /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -206,34 +230,45 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A48F75726770A86C6190CA0A2693AEC5 /* PayWallet */ = {
+		BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				5F3D103DFFFAB148BA08F685CA57F809 /* UPPaymentControl.h */,
-				509521F01A33CB470E1ED5DE0E2835B9 /* Frameworks */,
+				74CE0DE5725F4B801F859F19F0B374F6 /* iOS */,
 			);
-			name = PayWallet;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		A5786E06857FC10FF32A1247D332CDC5 /* iOS */ = {
+		CD2E1909FC7167BDF698305906214077 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				0C9908F76B8FC2E16C6263F0D579C0BA /* CFNetwork.framework */,
-				7D02A1863E856DEEE3BA1BAB18748AF6 /* Foundation.framework */,
-				8FD0BE3B6B5994C0CDA7629DA1C89122 /* SystemConfiguration.framework */,
+				3CF702409D85162BFB9071C488664DAB /* SYUPPaySDK.modulemap */,
+				EFCAE8E88CCB274431A9E7F04A72A5A8 /* SYUPPaySDK.xcconfig */,
+				D13CF7AAC3112CEA7CACCC1CD818AF58 /* SYUPPaySDK-dummy.m */,
+				AA2BC2F7FA639F884AC3FBE83FEDCCA1 /* SYUPPaySDK-Info.plist */,
+				9FA536DD9DC54E95B85094B73022978D /* SYUPPaySDK-prefix.pch */,
+				11C5D7E9DA3A374E7E6935249035CE3E /* SYUPPaySDK-umbrella.h */,
 			);
-			name = iOS;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SYUPPaySDK";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				55A3C4C6C51514C5EF1EC4316A089A63 /* Development Pods */,
-				03C5C200A0787E300053CFA8F53CA094 /* Frameworks */,
+				F59B0F50FEFFE4334768AE14AF68E61F /* Development Pods */,
+				BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */,
 				A155BBBE6E81BC163B7FAF57E590EFBA /* Products */,
 				3EB8A01212D716A8C792067E486E99BD /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		D1E38027AE175C2675BAE51E491CAFFD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EB067668FB7ADD4AE8C7ED6A34D4CA32 /* libUPAPayPlugin.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		E7D6B9F302A4432E23FA2FFE7963F0AC /* Pods-SYUPPaySDK_Example */ = {
@@ -251,6 +286,23 @@
 			);
 			name = "Pods-SYUPPaySDK_Example";
 			path = "Target Support Files/Pods-SYUPPaySDK_Example";
+			sourceTree = "<group>";
+		};
+		F59B0F50FEFFE4334768AE14AF68E61F /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8BD52A042C960B7E1825140D84952484 /* SYUPPaySDK */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		FBC263D760DCC603B098D5744DFFD2AF /* inc */ = {
+			isa = PBXGroup;
+			children = (
+				0F29C53305C3DDC46DBC5E6BE71A78CD /* UPPaymentControl.h */,
+			);
+			name = inc;
+			path = SYUPPaySDK/paymentcontrol/inc;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -272,13 +324,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E57B2697DB33843D381281B8C1587417 /* Headers */ = {
+		79F5767E8A592ABCD70926B34CE04BB9 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				99AE00EFF2CB05EEF66F55E05CE4FC12 /* SYUPPayDummy.h in Headers */,
-				F09FB2BB5C6AD3DA2D45735B86EC6293 /* SYUPPaySDK-umbrella.h in Headers */,
-				E23533B5B720DCA4E8D4DEACA99B01E3 /* UPPaymentControl.h in Headers */,
+				30247FCB5846C8BAA5C6DA9D03C7F9C8 /* SYUPApplePayDummy.h in Headers */,
+				3F7D482DC5384BC8E6A79AC6FB2F3AC7 /* SYUPPayDummy.h in Headers */,
+				4BB813244A977F18CBC0AED17F4B9BAE /* SYUPPaySDK-umbrella.h in Headers */,
+				3B594A978D40235827F378C6EAA48098 /* UPAPayPlugin.h in Headers */,
+				C15DD2A0F93DC981A40BD5A0E43B70FF /* UPAPayPluginDelegate.h in Headers */,
+				DAA53665478213E077E551AF5FA56F62 /* UPPaymentControl.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,9 +344,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 10340EA54A3CFF0A59B44DAF72FC9137 /* Build configuration list for PBXNativeTarget "SYUPPaySDK" */;
 			buildPhases = (
-				E57B2697DB33843D381281B8C1587417 /* Headers */,
-				C3F518D00994F595DCE5BF992FBAFC0A /* Sources */,
-				5547CD55A36E9981D78BD118FA1591B9 /* Frameworks */,
+				79F5767E8A592ABCD70926B34CE04BB9 /* Headers */,
+				1161C9419E2047D15E35EF6CEB708DD5 /* Sources */,
+				78EF03E2F4DF3539636CCF0FFA094D30 /* Frameworks */,
 				94D657DC2102E2981881E0F6BF61B091 /* Resources */,
 			);
 			buildRules = (
@@ -394,20 +449,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		1161C9419E2047D15E35EF6CEB708DD5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AF9FEA124978C4C0408FF2C1FAB2476 /* SYUPApplePayDummy.m in Sources */,
+				A6BC18B4FD1901E60CB1CC910D3DC981 /* SYUPPayDummy.m in Sources */,
+				8893FC92CA72131C9302208A5AD4E0B9 /* SYUPPaySDK-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		63852B5D9E9273EFF089EAFBF32D11B8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				A38AA750DD862BA0D0C727EFB8B4F55A /* Pods-SYUPPaySDK_Example-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C3F518D00994F595DCE5BF992FBAFC0A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				EF636C2CAAC2236D96D3D290660C7E4E /* SYUPPayDummy.m in Sources */,
-				9BFB7207558C6436701408EDFEDB1310 /* SYUPPaySDK-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -503,7 +559,7 @@
 		};
 		13A90B296BF8F83938B4C27B253AC2F1 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0DD720E7FAEC0F91C634AFB98493C6A2 /* SYUPPaySDK.xcconfig */;
+			baseConfigurationReference = EFCAE8E88CCB274431A9E7F04A72A5A8 /* SYUPPaySDK.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -602,7 +658,7 @@
 		};
 		49DA6CDF9C83F5D36944D1AB88FF39EA /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0DD720E7FAEC0F91C634AFB98493C6A2 /* SYUPPaySDK.xcconfig */;
+			baseConfigurationReference = EFCAE8E88CCB274431A9E7F04A72A5A8 /* SYUPPaySDK.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";

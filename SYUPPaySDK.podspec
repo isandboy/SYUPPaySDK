@@ -28,28 +28,27 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/isandboy/SYUPPaySDK.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '8.0'
-  s.source_files = 'SYUPPaySDK/*.{h,m}'
-
   #s.default_subspecs = 'PayWallet'
 
   # 银联支付
   s.subspec 'PayWallet' do |ss|
-    ss.source_files = 'SYUPPaySDK/paymentcontrol/**/*.h'
+    ss.source_files = 'SYUPPaySDK/paymentcontrol/**/*.{h,m}'
     ss.frameworks = 'CFNetwork', 'SystemConfiguration'
     ss.vendored_libraries = 'SYUPPaySDK/paymentcontrol/**/*.a'
     ss.libraries = 'z', 'c++'
     ss.frameworks = 'CFNetwork', 'SystemConfiguration'
+    ss.pod_target_xcconfig = { 'OTHER_LDFLAGS' => '-all_load' }
   end
 
   # 银联苹果支付
   s.subspec 'ApplyPay' do |ss|
-    ss.source_files = 'SYUPPaySDK/applePaySDK/**/*.h'
+    ss.source_files = 'SYUPPaySDK/applePaySDK/**/*.{h,m}'
     ss.frameworks = 'CFNetwork', 'SystemConfiguration'
     ss.vendored_libraries = 'SYUPPaySDK/applePaySDK/**/*.a'
     ss.libraries = 'z', 'c++'
     ss.frameworks = 'CFNetwork', 'SystemConfiguration', 'PassKit'
+    ss.pod_target_xcconfig = { 'OTHER_LDFLAGS' => '-all_load' }
   end
 
-  s.pod_target_xcconfig = { 'OTHER_LDFLAGS' => '-all_load' }
 
 end

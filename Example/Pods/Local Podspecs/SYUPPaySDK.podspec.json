@@ -18,15 +18,10 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "SYUPPaySDK/*.{h,m}",
-  "default_subspecs": "PayWallet",
-  "pod_target_xcconfig": {
-    "OTHER_LDFLAGS": "-all_load"
-  },
   "subspecs": [
     {
       "name": "PayWallet",
-      "source_files": "SYUPPaySDK/paymentcontrol/**/*.h",
+      "source_files": "SYUPPaySDK/paymentcontrol/**/*.{h,m}",
       "frameworks": [
         "CFNetwork",
         "SystemConfiguration"
@@ -35,11 +30,14 @@
       "libraries": [
         "z",
         "c++"
-      ]
+      ],
+      "pod_target_xcconfig": {
+        "OTHER_LDFLAGS": "-all_load"
+      }
     },
     {
       "name": "ApplyPay",
-      "source_files": "SYUPPaySDK/applePaySDK/**/*.h",
+      "source_files": "SYUPPaySDK/applePaySDK/**/*.{h,m}",
       "frameworks": [
         "CFNetwork",
         "SystemConfiguration",
@@ -49,7 +47,10 @@
       "libraries": [
         "z",
         "c++"
-      ]
+      ],
+      "pod_target_xcconfig": {
+        "OTHER_LDFLAGS": "-all_load"
+      }
     }
   ]
 }
